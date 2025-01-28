@@ -16,4 +16,4 @@ Convert your images in Brawl Stars maps!
 2. Termux: ```pkg install Pillow -y```
 
 ### Coping Repository in Terminal:
-1. Ubuntu & Termux: ```git clone 
+1. Ubuntu & Termux: ```git clone https://github.com/BTermux/Img2Map```
