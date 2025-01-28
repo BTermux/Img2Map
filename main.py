@@ -5,8 +5,8 @@ import time
 chars = ["T", ".", "B", "C", "M", "N", "R", "W"]
 map_size = 60  # Размер карты (максимум 60x60 для Brawl Stars)
 
-# Ввод изображения
-file = input("Enter image name: ")
+# Ввод пути изображения
+file = input("Enter the image directory: ")
 start = time.time()
 image = Image.open(file).convert("L")
 
@@ -33,10 +33,10 @@ for y in range(height):
             char = chars[char_index]
         res.paste(blocks[char], (x * 20, y * 20))  # Добавляем блок на изображение
 
-# Сохранение результата
-name = f"{time.time():.0f}.png"
+# Сохранение результата в папку Pictures
+name = f"/storage/emulated/0/Pictures/{time.time():.0f}.png"
 res.save(name)
 
-# Вывод времени выполнения
+# Вывод информации о сохранении
 end = time.time()
-print(f"Saved in {name}\nTotal time: {round((end - start), 3)} seconds!")
+print(f"Image saved to {name}\nTotal time: {round((end - start), 3)} seconds!")
