@@ -1,5 +1,6 @@
 from PIL import Image
 import time
+import os
 
 # Символы и настройки
 chars = ["T", ".", "B", "C", "M", "N", "R", "W"]
@@ -33,10 +34,21 @@ for y in range(height):
             char = chars[char_index]
         res.paste(blocks[char], (x * 20, y * 20))  # Добавляем блок на изображение
 
-# Сохранение результата в папку Pictures
-name = f"/storage/emulated/0/Pictures/{time.time():.0f}.png"
-res.save(name)
+# Запрос пути для сохранения изображения
+save_path = input("Enter the directory where you want to save the image (or just the folder name): ")
+
+# Если путь не абсолютный, добавляем к нему путь Pictures
+if not os.path.isabs(save_path):
+    save_path = f"/storage/emulated/0/Pictures/{save_path}"
+
+# Убедимся, что папка существует, и создадим ее, если нужно
+os.makedirs(save_path, exist_ok=True)
+
+# Сохранение результата в указанную папку
+name = f"{time.time():.0f}.png"
+full_path = os.path.join(save_path, name)
+res.save(full_path)
 
 # Вывод информации о сохранении
 end = time.time()
-print(f"Image saved to {name}\nTotal time: {round((end - start), 3)} seconds!")
+print(f"Image saved to {full_path}\nTotal time: {round((end - start), 3)} seconds!")
