@@ -17,3 +17,8 @@ Convert your images in Brawl Stars maps!
 
 ### Coping Repository in Terminal:
 1. Ubuntu & Termux: ```git clone https://github.com/BTermux/Img2Map```
+
+## Switching to the Img2Map direstory:
+1. Ubuntu & Termux: ```cd Img2Map```
+
+# 
