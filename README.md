@@ -23,3 +23,12 @@ Convert your images in Brawl Stars maps!
 
 # Running program:
 1. Ubuntu & Termux: ```python main.py```
+
+## Useful:
+
+### Updating Github Repository with Git module:
+ 1. Make sure you are now in the correct directory where the copied repository is located.
+ 2. Ubuntu & Termux: ```git pull```
+
+# Credits
+My only TikTok: is.gd/alimkulov
