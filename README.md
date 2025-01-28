@@ -21,4 +21,5 @@ Convert your images in Brawl Stars maps!
 ## Switching to the Img2Map direstory:
 1. Ubuntu & Termux: ```cd Img2Map```
 
-# 
+# Running program:
+1. Ubuntu & 
