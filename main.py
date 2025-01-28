@@ -11,7 +11,7 @@ start = time.time()
 image = Image.open(file).convert("L")
 
 # Масштабирование изображения до 60x60
-image = image.resize((map_size, map_size), Image.ANTIALIAS)
+image = image.resize((map_size, map_size), Image.Resampling.LANCZOS)
 width, height = image.size
 
 # Предварительная загрузка блоков
