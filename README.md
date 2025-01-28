@@ -22,4 +22,4 @@ Convert your images in Brawl Stars maps!
 1. Ubuntu & Termux: ```cd Img2Map```
 
 # Running program:
-1. Ubuntu & 
+1. Ubuntu & Termux: ```python main.py```
