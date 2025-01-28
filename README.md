@@ -1,2 +1,3 @@
 # Img2Map
-Convert jpg/png image to brawl stars map
+This is fork!
+Convert your images in Brawl Stars maps!
