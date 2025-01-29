@@ -36,22 +36,29 @@ pkg install Pillow -y
 ### Coping Repository in Terminal:
 1. Ubuntu & Termux: 
 ```
-git clone https://github.com/BTermux/Img2Map```
+git clone https://github.com/BTermux/Img2Map
+```
 
 ## Switching to the Img2Map direstory:
 1. Ubuntu & Termux: 
-```cd Img2Map```
+```
+cd Img2Map
+```
 
 # Running program:
 1. Ubuntu & Termux: 
-```python main.py```
+```
+python main.py
+```
 
 ## Useful:
 
 ### Updating Github Repository with Git module:
  1. Make sure you are now in the correct directory where the copied repository is located.
  2. Ubuntu & Termux: 
-```git pull```
+```
+git pull
+```
 
 # Credits
 My only TikTok: is.gd/alimkulov
