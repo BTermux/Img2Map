@@ -5,19 +5,29 @@ Convert your images in Brawl Stars maps!
 #Installation
 ### At first install Python:
 1. Ubuntu: 
-```sudo apt install python3-pip -y```
+```Bash
+sudo apt install python3-pip -y
+```
 2. Termux: 
-```pkg install python python -y```
+```Bash
+pkg install python python -y
+```
 
 ### Install Git module:
 1. Ubuntu: 
-```sudo apt install git -y```
+```Bash
+sudo apt install git -y
+```
 2. Termux: 
-```pkg install git -y```
+```
+pkg install git -y
+```
 
 ### Install Pillow module:
 1. Ubuntu: 
-```sudo apt install Pillow -y```
+```
+sudo apt install Pillow -y.
+```
 2. Termux: 
 ```pkg install Pillow -y```
 
