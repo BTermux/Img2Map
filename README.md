@@ -29,11 +29,14 @@ pkg install git -y
 sudo apt install Pillow -y.
 ```
 2. Termux: 
-```pkg install Pillow -y```
+```
+pkg install Pillow -y
+```
 
 ### Coping Repository in Terminal:
 1. Ubuntu & Termux: 
-```git clone https://github.com/BTermux/Img2Map```
+```
+git clone https://github.com/BTermux/Img2Map```
 
 ## Switching to the Img2Map direstory:
 1. Ubuntu & Termux: 
