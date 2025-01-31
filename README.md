@@ -2,7 +2,7 @@
 This is fork!
 Convert your images in Brawl Stars maps!
 
-#Installation
+# Installation
 ### At first install Python:
 1. Ubuntu: 
 ```Bash
